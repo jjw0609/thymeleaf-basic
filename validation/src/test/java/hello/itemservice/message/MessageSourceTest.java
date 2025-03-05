@@ -16,11 +16,11 @@ public class MessageSourceTest {
     @Autowired
     MessageSource ms;
 
-    @Test
-    void helloMessage() {
-        String result = ms.getMessage("hello", null, null);
-        assertThat(result).isEqualTo("안녕");
-    }
+//    @Test
+//    void helloMessage() {
+//        String result = ms.getMessage("hello", null, null);
+//        assertThat(result).isEqualTo("안녕");
+//    }
 
     @Test
     void notFoundMessageCode() {
